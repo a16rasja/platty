@@ -22,7 +22,8 @@ public class LevelLoader : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player") && ScoreManager.instance.getScore() == 2)
+        //Checks if the collider is a player AND if score is equal to two.
+        if (other.gameObject.CompareTag("Player") && ScoreManager.instance.getScore() >= 2)
         {
             LoadNextLevel();
         }
