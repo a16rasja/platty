@@ -22,7 +22,9 @@ public class LevelLoader : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player") && ScoreManager.instance.getScore() == 2)
+        int numberOfCoins = GameObject.FindGameObjectsWithTag("Coins").Length;
+
+        if (other.gameObject.CompareTag("Player") && numberOfCoins <= 0)
         {
             LoadNextLevel();
         }
