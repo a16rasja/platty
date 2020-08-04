@@ -28,6 +28,7 @@ public class ScoreManager : MonoBehaviour
 
     public int getScore()
     {
+        //returns the score from ChangeScore
         return score;
     }
 }
