@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Coins
   - Goal
+  - summer
+  - winter
+  - autumn
   layers:
   - Default
   - TransparentFX
