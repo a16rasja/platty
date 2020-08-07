@@ -1110,12 +1110,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startTime: 0
-  holdTime: 0
+  holdTime: 3
   currentTime: 0
   timePercent: 0
   timer: {fileID: 0}
   ll: {fileID: 0}
-  key: 0
+  key: 104
 --- !u!4 &49191256
 Transform:
   m_ObjectHideFlags: 0
@@ -2142,7 +2142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.21787111, g: 0.8019667, b: 0.9056604, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:

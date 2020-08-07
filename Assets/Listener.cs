@@ -41,7 +41,7 @@ public class Listener : MonoBehaviour
                 timePercent = 0;
             }
 
-            // Checks if key is hold
+            // Checks if key is held
             if (Input.GetKey(key))
             {
                 // Calculate percentage of the time a button should be held
