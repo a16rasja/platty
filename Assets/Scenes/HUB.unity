@@ -1256,7 +1256,7 @@ GameObject:
   - component: {fileID: 108509945}
   - component: {fileID: 108509944}
   m_Layer: 0
-  m_Name: Image
+  m_Name: COIN IMAGE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1834,7 +1834,7 @@ GameObject:
   - component: {fileID: 772140318}
   - component: {fileID: 772140317}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: SCORE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1975,7 +1975,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 150, y: 212}
+  m_AnchoredPosition: {x: 155.2, y: 214.3}
   m_SizeDelta: {x: 310.39514, y: 47.60904}
   m_Pivot: {x: 0.49999994, y: 0.5000003}
 --- !u!1 &785670357
@@ -2264,7 +2264,7 @@ GameObject:
   - component: {fileID: 1537110115}
   - component: {fileID: 1537110114}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: LEVEL NAME
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

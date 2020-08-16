@@ -5,6 +5,8 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     public int coinValue = 1;
+    public static bool coinDissapear = false;
+    
 
     //Increases the score of the game when the object is collided with.
     void OnTriggerEnter2D(Collider2D other)
@@ -12,6 +14,7 @@ public class Coin : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             ScoreManager.instance.ChangeScore(coinValue);
+            
         }
 
         if (other.gameObject.CompareTag("Coins"))
